@@ -111,7 +111,7 @@ function saveToDoItems() {
   let currentToDoListOfInputs =
     get("currentToDoList").querySelectorAll(".toDoItemText");
   let completedToDoListOfInputs =
-    get("completedToDoList").querySelectorAll(".toDoItemText");
+    get("completedToDoList").querySelectorAll(".completedItemText");
 
   if (currentToDoListOfInputs) {
     let currentListValues = Array.from(currentToDoListOfInputs).map(
