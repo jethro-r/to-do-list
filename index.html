@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="title">To-Do List</h1>
+    </nav>
+    <main>
+      <div class="description">
+        <h4> Welcome to a simple to-do list </h4>
+        Here you are able to add any task in order to remember all yours tasks
+        <br />
+        Once you have completed the task, click on 'Complete' - this will move
+        it to the completed list <br />
+        If you wish to delete an task, just click the dropdown menu on the task
+        and click 'Delete' <br /><br />
+        This to-do list will remember your tasks for this browser, so dont be
+        afraid to close the tab & come back later :)
+      </div>
+      <span class="input-span">
+        <input class="input" type="text" placeholder="Enter text for item" />
+        <button class="inputButton">Add</button>
+      </span>
+
+      <ul class="currentToDoList">
+        <h2>To-Do List</h2>
+        <!-- created dynamically -->
+      </ul>
+      <ul class="completedToDoList">
+        <h2>Completed To-Do List</h2>
+        <!-- Created dynamically -->
+      </ul>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
